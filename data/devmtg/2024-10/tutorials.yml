@@ -51,6 +51,3 @@ tutorials:
       vector registers between procedural calls are controlled and assigned efficiently. In this
       talk, we will show the design and implementation of RISC-V Vector Calling Convention for
       C/C++.
-
-
-

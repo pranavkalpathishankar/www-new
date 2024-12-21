@@ -484,7 +484,7 @@ technical_talks:
   - title: "Manifesto for faster build times"
     speakers: "Alexandre Ganea, Francisco Cabrita"
     video_url: "https://youtu.be/1Gi9nPVUZro"
-    slides_url: "N/A"
+    slides_url: ""
     description: |
       Build times and developer iteration are important to you? Wait no more! This talk
       will discuss a user's point of view and then sketch out a plan for reducing the

@@ -2,7 +2,7 @@ panels:
   - title: "Is MLIR feature complete? Production ready?"
     speaker: "Alex Zinenko, Stella Laurenzo, Renato Golin, Tobias Grosser, Mehdi Amini, Chris Lattner"
     video_url: "https://youtu.be/T5H1HjOSE_I"
-    slides_url: "N/A"
+    slides_url: ""
     description: |
       Once the most fast-paced part of the LLVM source tree, the MLIR project is slowing
       down significantly both in the amount and complexity of changes committed. The project had
