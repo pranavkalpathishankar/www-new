@@ -112,7 +112,7 @@ technical_talks:
       and the main challenges and limitations encountered.
 
   - title: "Mojo debugging: extending MLIR and LLDB"
-    speakers: "Walter Erquinigo, Billy Zhu"
+    speaker: "Walter Erquinigo, Billy Zhu"
     video_url: "https://youtu.be/9jfukpjCPIg"
     slides_url: "/devmtg/2024-04/slides/TechnicalTalks/MojoDebugging.pdf"
     description: |
@@ -146,7 +146,7 @@ technical_talks:
       collection and deoptimization with On-Stack replacement.
 
   - title: "Teaching MLIR concepts to undergraduate students"
-    speakers: "Mathieu Fehr, Sasha Lopoukhine"
+    speaker: "Mathieu Fehr, Sasha Lopoukhine"
     video_url: "https://youtu.be/XnRZA1pz7iw"
     slides_url: "/devmtg/2024-04/slides/TechnicalTalks/Fehr-Lopoukhine-TeachingMLIRConceptsToUndergraduateStudents.pdf"
     description: |
@@ -213,7 +213,7 @@ technical_talks:
       and hoisting memory allocations from loops.
 
   - title: "MLIR Vector Distribution"
-    speakers: "Kunwar Grover, Harsh Menon"
+    speaker: "Kunwar Grover, Harsh Menon"
     video_url: "https://youtu.be/ueYi9NnK4Pw"
     slides_url: ""
     description: |
@@ -252,7 +252,7 @@ technical_talks:
       easy to debug and efficient.
 
   - title: "LLVM-IR-Dataset-Utils - Scalable Tooling for IR Datasets"
-    speakers: "Aiden Grossman, Ludger Paehler"
+    speaker: "Aiden Grossman, Ludger Paehler"
     video_url: "https://youtu.be/_SOWTuWyx1Q"
     slides_url: "/devmtg/2024-04/slides/TechnicalTalks/Grossman-LLVMIR-DatasetUtils.pdf"
     description: |
