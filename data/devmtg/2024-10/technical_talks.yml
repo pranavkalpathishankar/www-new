@@ -114,7 +114,7 @@ technical_talks:
       llvm-exegesis.
 
   - title: "Loop Vectorisation: a quantitative approach to identify/evaluate opportunities"
-    speakers: "Sjoerd Meijer"
+    speaker: "Sjoerd Meijer"
     video_url: "https://youtu.be/u7W3_xL_3NQ"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Meijer-Loop-Vectorisation.pdf"
     description: |
@@ -163,7 +163,7 @@ technical_talks:
 
 
   - title: "Vectorization in MLIR: Towards Scalable Vectors and Matrices (Part 2)"
-    speakers: "Andrzej Warzyński"
+    speaker: "Andrzej Warzyński"
     video_url: "https://youtu.be/gaSb4BRRcmM"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Warzynski-Vectorization-in-MLIR.pdf"
     description: |
@@ -248,7 +248,7 @@ technical_talks:
 
   - title: "Making upstream MLIR more friendly to programming languages: current upstream limitations,
             the ptr dialect, and the road ahead"
-    speakers: "Mehdi Amini, Fabian Mora Cordero"
+    speaker: "Mehdi Amini, Fabian Mora Cordero"
     video_url: "https://youtu.be/Bt__BDQivxo"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Amini-Cordero-MakingUpstreamMLIRMoreFriendly.pdf"
     description: |
@@ -307,7 +307,7 @@ technical_talks:
 
 
   - title: "A C++ Toolchain for Your GPU"
-    speakers: "Joseph Huber"
+    speaker: "Joseph Huber"
     video_url: "https://youtu.be/4TxGWis1mws"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Huber-A-CPlusPlus-Toolchain-for-Your-GPU.pdf"
     description: |
@@ -317,7 +317,7 @@ technical_talks:
       use this to create GPU libraries that can be stacked upon eachother.
   
   - title: "When unsafe code is slow - Automatic Differentiation in Rust"
-    speakers: "Manuel Drehwald"
+    speaker: "Manuel Drehwald"
     video_url: "https://youtu.be/xEcoNuzhfBI"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Drehwald-AutomaticDifferentiation-in-Rust.pdf"
     description: |
@@ -331,7 +331,7 @@ technical_talks:
 
   
   - title: "A new constant expression interpreter for Clang"
-    speakers: "Timm Baeder"
+    speaker: "Timm Baeder"
     video_url: "https://youtu.be/eMT1dBlaggQ"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Baeder-A-new-constant-expression-interpreter-for-Clang.pdf"
     description: |
@@ -341,7 +341,7 @@ technical_talks:
 
   
   - title: "Generic implementation strategies in Carbon and Clang"
-    speakers: "Richard Smith"
+    speaker: "Richard Smith"
     video_url: "https://youtu.be/j0BL52NdjAU"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Smith-Generic-implementation-strategies-in-Carbon-and-Clang.pdf"
     description: |
@@ -350,7 +350,7 @@ technical_talks:
       benefits of each direction.
 
   - title: "JSIR - Adversarial JavaScript Detection With MLIR"
-    speakers: "Zhixun Tan"
+    speaker: "Zhixun Tan"
     video_url: "https://youtu.be/SY1ft5EXI3I"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Tan-JSIR.pdf"
     description: |
@@ -364,7 +364,7 @@ technical_talks:
 
 
   - title: "Clang Modules at Scale"
-    speakers: "Michael Spencer, Ian Anderson"
+    speaker: "Michael Spencer, Ian Anderson"
     video_url: "https://youtu.be/tcB1vXc4L8M"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Anderson-Spencer-ClangModules-at-Scale.pdf"
     description: |
@@ -374,7 +374,7 @@ technical_talks:
       Clang modules at scale.
 
   - title: "Shardy: An MLIR-based Tensor Partitioning System for All Dialects"
-    speakers: "Bart Chrzaszcz, Zixuan Jiang"
+    speaker: "Bart Chrzaszcz, Zixuan Jiang"
     video_url: "https://youtu.be/po-Cxq2Acig"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Chrzaszcz-Jiang-Shardy.pdf"
     description: |
@@ -390,7 +390,7 @@ technical_talks:
 
   
   - title: "Swift Explicitly-Built Modules"
-    speakers: "Artem Chikin"
+    speaker: "Artem Chikin"
     video_url: "https://youtu.be/DEjbcVRfSKA"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Chikin-Swift-Explicitly-Built-Modules.pdf"
     description: |
@@ -406,7 +406,7 @@ technical_talks:
 
 
   - title: "Simplifying GPU Programming with Parametric Tile-Level Tensors In Mojo"
-    speakers: "Ahmed Taei"
+    speaker: "Ahmed Taei"
     video_url: "https://youtu.be/sOZWhPVvRdw"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Taei-Simplifying-GPU-Programming-with-Parametric-Tile-Level-Tensors-In-Mojo.pdf"
     description: |
@@ -426,7 +426,7 @@ technical_talks:
 
 
   - title: "lean-mlir: A Workbench for formally verifying Peephole Optimizations for MLIR"
-    speakers: "Alex Keizer, Siddharth Bhat"
+    speaker: "Alex Keizer, Siddharth Bhat"
     video_url: "https://youtu.be/4lh2NnLOxvQ"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Keizer-Bhat-lean-mlir.pdf"
     description: |
@@ -442,7 +442,7 @@ technical_talks:
 
 
   - title: "Improving optimized code line table quality"
-    speakers: "Orlando Cazalet-Hyams"
+    speaker: "Orlando Cazalet-Hyams"
     video_url: "https://youtu.be/yj1EUzXVP1I"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Cazalet-Hyams-Improving-optimized-code-line-table-quality.pdf"
     description: |
@@ -453,7 +453,7 @@ technical_talks:
       our evaluation of how they perform.
 
   - title: "Implementing Linear / Non-destructible Types in Vale and Mojo"
-    speakers: "Evan Ovadia"
+    speaker: "Evan Ovadia"
     video_url: "https://youtu.be/IpuvQUVB8Cg"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Ovadia-LinearTypes-in-Vale-and-Mojo.pdf"
     description: |
@@ -466,7 +466,7 @@ technical_talks:
 
 
   - title: "Adding Pointer Authentication ABI support for your ELF platform"
-    speakers: "Anton Korobeynikov"
+    speaker: "Anton Korobeynikov"
     video_url: "https://youtu.be/bytWm7BzJVE"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Korobeynikov-Adding-Pointer-Authentication-ABI-support.pdf"
     description: |
@@ -482,7 +482,7 @@ technical_talks:
 
 
   - title: "Manifesto for faster build times"
-    speakers: "Alexandre Ganea, Francisco Cabrita"
+    speaker: "Alexandre Ganea, Francisco Cabrita"
     video_url: "https://youtu.be/1Gi9nPVUZro"
     slides_url: ""
     description: |
@@ -492,7 +492,7 @@ technical_talks:
       incrementaly changed to achieve this goal, and how collaboration could be shaped.
 
   - title: "Mitigating use-after-free security vulnerabilities in C and C++ with language support for type-isolating allocators"
-    speakers: "Oliver Hunt"
+    speaker: "Oliver Hunt"
     video_url: "https://youtu.be/GGGaiGpm5BY"
     slides_url: "https://llvm.org/devmtg/2024-10/slides/techtalk/Hunt-Mitigating-use-after-free-security-vulnerabilities.pdf"
     description: |
