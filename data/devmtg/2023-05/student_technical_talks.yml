@@ -1,0 +1,123 @@
+student_technical_talks:
+  - title: "Cost Modelling for Register Allocation and Beyond"
+    speaker: "Aiden Grossman, University of California, Davis"
+    video_url: "https://youtu.be/1yWCbYlcdd4"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May10/03-Grossman-cost-modelling.pdf"
+    description: |
+      Accurate and fast cost modeling is essential for training ML models to replace certain key
+      heuristics within LLVM when looking for performance gains. For eviction in the LLVM greedy
+      register allocator, we use a linear model with some domain specific features which has
+      successfully trained highly performant ML replacements, but leaves a lot to be desired in
+      terms of absolute accuracy. In this talk we present results on the application of more
+      generic basic block specific cost models to this problem as well as future directions and
+      current work to push accurate cost modeling beyond basic blocks for the application of
+      training ML models.
+
+
+  - title: "A Template-Based Code Generation Approach for MLIR"
+    speaker: "Florian Drescher, Technical University of Munich (TUM)"
+    video_url: "https://youtu.be/0z1uEgVwfDo"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May11/01-Florian-TemplatedBasedCodeGenerationApproach-for-MLIR.pdf"
+    description: |
+      In the talk, we introduce a template-based compilation approach for MLIR dialects. It
+      derives code templates ahead-of-time for MLIR instructions using the already implemented
+      lowerings. During run-time compilation of a program, it stitches together the created
+      templates and patches missing constants to quickly derive native. We apply our compiler on
+      database queries (LingoDB) as well as ONNX models and achieve compile-time speed-ups
+      between 60x and 1000x at the cost of slower execution by the factor two to three compared
+      to the existing LLVM compilation back-end. In this presentation, we describe our approach
+      for fast, template-based compilation and outline our vision on how to improve on the idea
+      and establish template-based compilation as a new code generation approach for MLIR as an
+      alternative to the currently used LLVM back-end.
+
+
+  - title: "MLIR Query Tool for easier exploration of the IR"
+    speaker: "Devajith Valaparambil Sreeramaswamy"
+    video_url: "https://youtu.be/3ELHZARBmYs"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May11/04-Sreeramaswamy-MLIRQueryTool.pdf"
+    description: |
+      This talk will introduce mlir-query, a query language tool designed to simplify the
+      exploration of the Intermediate Representation (IR) of code in MLIR. mlir-query aims to
+      provide a more efficient means of understanding and debugging the IR, which can be
+      challenging without a query language. The presentation will showcase the tool's basic
+      queries, such as operation, hasName, resultOf, and constant queries, along with a demo of
+      its usefulness.
+
+
+  - title: "mlirSynth: Synthesis of Domain-Specific Programs in MLIR"
+    speaker: "Alexander Brauckmann, University of Edinburgh"
+    video_url: "https://youtu.be/Ak24vvCatkc"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May11/03-Brauckmann-mlirSynth.pdf"
+    description: |
+      mlirSynth is a tool that automatically raises programs to high-level MLIR dialects, using
+      MLIR's dialect definitions, instead of relying on manually-defined rules that are
+      difficult to maintain. Our experiments show that mlirSynth achieves higher coverage than
+      existing rule-based approaches on the PolyBench benchmark and enables high performance
+      through domain-specific compilation.
+
+
+  - title: "Image Processing Ops as first class citizens in MLIR: write once, vectorise everywhere!"
+    speaker: "Prathamesh Tagore, Veermata Jijabai Technological Institute"
+    video_url: "https://youtu.be/0xQ2lDY9RCw"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May10/04-Tagore-ImageProcessingOp.pdf"
+    description: |
+      We present an MLIR dialect for Image Processing named Digital Image Processing
+      (DIP). DIP dialect solves the problem of dependence on external tools and libraries for
+      image pre-processing in deep learning models at the MLIR IR level. This dialect is capable
+      of processing an image input at the IR level in the form of memrefs. We utilise MLIR’s
+      vector dialect abstraction to generate optimal vectorisable code using a single lowering
+      pipeline for different architectures. Additionally, we also present these operations in
+      the form a C++ library for their higher level use. As of now, the DIP dialect supports 1D
+      as well as 2D convolutions, resizing, rotation, FFT, IFFT and morphological
+      transformations for images.
+
+
+  - title: "Using the Clang data-flow framework for null-pointer analysis"
+    speaker: "Viktor Cseh, Eötvös Loránd University"
+    video_url: "https://youtu.be/TPEQ3vg16iA"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May10/02-Cesh-Dataflow_RC1_finalized.pdf"
+    description: |
+      In late 2021 a new data-flow analysis framework was introduced into the Clang analysis
+      tooling, enabling reasoning about program states the symbolic execution engine of the
+      Clang Static Analyzer had difficulty deducing. In this talk, we summarize our experience
+      with the data-flow framework through the lens of implementing a Clang-Tidy checker using
+      null-pointer analysis. We discuss various approaches we tested to encode pointer values
+      within the framework, their performance and limitations, and best practices and common
+      pitfalls we encountered while implementing checkers using the framework.
+
+
+  - title: "Fast pivot Function for MLIR’s Presburger Library Through Vectorization and Integer Arithmetic in FPU"
+    speaker: "Qi Zhou"
+    video_url: "https://youtu.be/-TQAy6WWBJ0"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May10/01-Zhou-pivotfpu.pdf"
+    description: |
+      This talk presents a fast implementation of the core function pivot for the Presburger
+      library in MLIR by performing vectorized integer arithmetics in FPU. The hot loop of the
+      pivot function performs overflow-checked multiplication and addition on each element of an
+      input matrix of low dimension and mostly small-value items. MLIR’s upstream uses
+      element-wise transprecision computing, where the data type of each element starts with
+      int64_t and will be switched to LargeInteger in case of overflow. Compilers cannot
+      automatically vectorize this approach, and int64_t has a much larger bit width than what
+      is typically needed for most items in the matrix. Additionally, extra arithmetics are
+      required to perform overflow checking for integers, resulting in significant overhead.
+      These issues can be addressed by taking advantage of SIMD and reducing the bit width for
+      every element. This report also introduces the int24_t data type, a 24-bit integer data
+      type created from the sign bit, plus the 23-bit mantissa of a 32-bit floating point.
+      int24_t overflow can be captured as floating point imprecision by a status register,
+      making overflow awareness almost free. On a representative 30-row by 19-column input
+      matrix, the runtime is reduced from 550 ns to 26 ns, achieving 20 times speedup.
+
+
+  - title: "RISC-V Vector Extension Support in MLIR: Motivation, Abstraction, and Application"
+    speaker: "Hongbin Zhang, Institute of Software Chinese Academy of Sciences"
+    video_url: "https://youtu.be/i9dsjzVOvy8"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/StudentTalks-May11/02-Zhang-RISC-V-VectorExtensionSupport-in-MLIR.pdf"
+    description: |
+      This talk will share our work on supporting the RISC-V Vector (RVV) extension in MLIR. The
+      RVV extension provides high-performance vector instructions, and the parallelism model is
+      different from other SIMD architectures. However, MLIR vector abstractions cannot support
+      some RVV features, especially the dynamic vector length and register group configuration.
+      To address this issue, we add custom MLIR abstractions to support RVV parallelism model,
+      and our design balances generic and specialized parts to avoid introducing fragmentation.
+      As a demonstration case, we use our abstractions to implement a vectorization optimization
+      for the matrix multiplication operation.

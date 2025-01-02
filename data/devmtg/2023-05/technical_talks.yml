@@ -1,0 +1,256 @@
+technical_talks:
+  - title: "Extensible and Composable Dataflow Analysis in MLIR"
+    speaker: "Tom Eccles, Arm & Jeff Niu, Modular"
+    video_url: "https://www.youtube.com/watch?v=5BijBv2TDnU"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/07-TomEccles-JeffNiu-MLIRDataflowAnalysis.pdf"
+    description: |
+      Designing a dataflow analysis framework requires understanding the peculiarities of the
+      compiler's IR: analyses need to run in a reasonable time and without algorithmic
+      explosion, analyses need to compose, and the framework must be extensible to allow
+      building a library of analyses. MLIR does not have fixed IR semantics. The IR is user-
+      extensible, and this reflects the primary challenge of building core infrastructure in
+      MLIR. It is not possible to build a dataflow analysis framework for MLIR the same way as
+      they have been built for other compilers. We proposed (and upstreamed) a general-purpose
+      dataflow analysis framework to MLIR designed according to MLIR's core principles:
+      extensible, composable, and debuggable. Our framework is unique in that it separates the
+      states of lattice elements from the logic that produces them: we allow users to define new
+      kinds of state but also inject transfer functions for existing states. Our framework also
+      has a dynamic dependency graph that is lazily instantiated according to the shape of the
+      IR, reducing the number of iterations to converge. In our talk, we will present the
+      mathematical formulation for transparently composable dataflow analyses. We will discuss
+      the implementation in upstream MLIR and how core analyses like dead code analysis,
+      constant propagation, and integer range analysis can be composed together with out-of-tree
+      dialects and analyses. As an in-depth example, we will give an overview of Flang's stack
+      arrays pass, which operates on Flang's MLIR dialects, It moves compiler-added array
+      temporaries from the heap to the stack and uses data-flow analysis to ensure that pointer
+      lifetimes do not escape the current stack frame. We show how this analysis is composed
+      with in-tree analyses to achieve better results. If there is time, we will show how data
+      flow analysis can be used in a wider context by reviewing the whole Flang stack arrays
+      pass.
+
+  - title: "MLIR-based offline memory planning and other graph-level optimizations for xcore.ai"
+    speaker: "Deepak Panickal, XMOS"
+    video_url: "https://youtu.be/zjDllpl8RVc"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/06-Panickal-MLIROfflineMemoryPlanning.pdf"
+    description: |
+      In this talk, we will give a walk-through of our MLIR-based graph compiler
+      optimizing TensorFlow Lite models to be deployed on the xcore.ai microcontroller. We focus
+      specifically on MLIR passes for memory usage reduction, such as offline memory planning,
+      operator splitting, and streaming constants from flash, along with other passes. We
+      leverage open-source projects such as MLIR, Tensorflow, and tflite-micro-compiler to
+      create a small executable within various resource constraints. In contrast to other
+      compilers in the LLVM world, we do not lower to LLVM IR. Instead, we produce C++ source
+      code using tflite-micro-compiler, which is compiled and executed by our toolchain. We will
+      go through some of the challenges in our journey and future plans. All code for the graph
+      compiler and runtime is available publically on GitHub.
+
+  - title: "A Rusty CHERI: The path to hardware capabilities in Rust"
+    speaker: "Lewis Revill, Embecosm"
+    video_url: "https://youtu.be/6vCh3WSLMvo"
+    slides_url: ""
+    description: |
+      Can we make unsafe Rust code safer with hardware capabilities? This talk presents the
+      motivation behind our effort to support CHERI (Capability Hardware Enhanced RISC
+      Instructions) in Rust, the challenges involved in modifying the Rust compiler to achieve
+      this, and the current state of Rust/CHERI (hopefully with a demo).
+
+  - title: "Extending the AArch32 JITLink backend"
+    speaker: "Stefan Gränitz, echtzeit.dev"
+    video_url: "https://youtu.be/9jFXNRzDSf0"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/04-Granitz-ExtendingtheAArch32%20-JITLinkBackend.pdf"
+    description: |
+      Practical advice on llvm-jitlink-executor, JITLink development and debugging of JITed
+      ARM/Thumb code
+
+  - title: "Using MLIR to Optimize Basic Linear Algebraic Subprograms"
+    speaker: "Steven Varoumas, Huawei Technologies Research & Development"
+    video_url: "https://youtu.be/x8IIMeFH7sk"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/08-Varoumas-UsingMLIR-to-OptimizeBasicLinearAlgebraicSubprograms.pdf"
+    description: |
+      The powerful framework provided by MLIR has the potential to allow library developers to
+      express and optimize standard linear algebra functions without having to write daunting
+      assembly code. In this presentation, we will describe how we have leveraged and extended
+      the capabilities of MLIR to generate an optimized subset of BLAS functions, with
+      performance comparable to hand-written assembly implementations.
+
+  - title: "Buddy Compiler: An MLIR-based Compilation Framework for Deep Learning Co-design"
+    speaker: "Hongbin Zhang, Institute of Software Chinese Academy of Sciences"
+    video_url: "https://youtu.be/EELBpBA-XCE"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/09-Zhang-Buddy%20Compiler_An%20MLIR-BasedCompilationFramework-for-DeepLearningCo-Design.pdf"
+    description: |
+      Buddy Compiler is a compiler framework for software and hardware co-design. We are
+      committed to building an extensible co-design ecosystem based on MLIR and RISC-V. This
+      talk will share our co-design process in deep learning inference, including preprocessing,
+      optimization, and backend support. Furthermore, we will also present our plans and current
+      progress on DSL (Domain-Specific Language) to DSA (Domain-Specific Architecture) co-
+      design.
+
+  - title: "MachineScheduler - fine grain resource allocation using resource intervals"
+    speaker: "Francesco Petrogalli, Apple"
+    video_url: "https://youtu.be/XWBVLcdzmFg"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/03-Petrogalli-StartAtCycle.pdf"
+    description: |
+      In this talk we will describe an optimisation introduced in the MachineScheduler that
+      allows to allocate more resources in a smaller number of cycles. To achieve this, we
+      introduced the concept of resource interval and look for empty slots when tracking
+      resource usage at a schedule boundary.
+
+  - title: "Inliner in MLIR"
+    speaker: "Javed Absar, Qualcomm"
+    video_url: "https://youtu.be/Ldxu8MJZY-I"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/10-Absar-Inliner_in_MLIR.pdf"
+    description: |
+      We give an overview of the Inliner in MLIR. The Inliner strikes a balance by defining
+      interfaces that define the expectations and can handle recursive functions using a
+      history-based scheme. This talk will cover Inlining in MLIR, and touch upon optimizations
+      in general in MLIR.
+
+  - title: "How to use llvm-debuginfo-analyzer tool"
+    speaker: "Carlos Alberto Enciso, SN Systems (Sony Interactive Entertainment)"
+    video_url: "https://youtu.be/V8pW0Wr9pSg"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/09-Ensico-llvm-debuginfo-analyzer.pdf"
+    description: |
+      Developed at Sony, llvm-debuginfo-analyzer is a command-line tool added recently to LLVM.
+      This talk will present a more detailed information on how to use the tool, with specific
+      test cases that cover the most common options. In addition, it will enumerate current
+      limitations and future work.
+
+  - title: "Practical Global Merge Function with ThinLTO"
+    speaker: "Kyungwoo Lee, Meta"
+    video_url: "https://youtu.be/rh2ApiBQQks"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/03-Lee-PracticalGlobalMergeFunction-with-ThinLTO.pdf"
+    description: |
+      Function merging is an important technique for reducing code size by combining identical
+      or similar functions into a single function. This technique has been extensively
+      researched in both industry and academia. However, the existing methodologies have not
+      been evaluated with -Oz, which includes aggressive outlinings, and the linker's identical
+      code folding, which can already fold identical pieces of code. Additionally, none of these
+      methodologies suggest a sound approach that works globally with ThinLTO, which is crucial
+      when building large apps. In this talk, we propose our global merge function (GMF), which
+      utilizes global merge information obtained from a prior codegen run and optimistically
+      creates merging instances within each module context independently. Our evaluation showed
+      that GMF can reduce code size in real-world iOS apps by up to 3.5% on top of state-of-the-
+      art outliners that are fully enabled with ThinLTO.
+
+  - title: "Prototyping MLIR in Python"
+    speaker: "Sasha Lopoukhine, University of Edinburgh & Mathieu Fehr, University of Edinburgh"
+    video_url: "https://youtu.be/YJIKr1DoUCQ"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/05-Fehr-PrototypeMLIRinPython.pdf"
+    description: |
+      We present xDSL, a reimplementation of MLIR core features in pure Python with a focus on
+      accessibility. xDSL aims at bridging the Python DSL community with the MLIR one, by being
+      fully compatible with MLIR through the textual format. Dialects can as well be translated
+      from one framework to the other through IRDL. Since xDSL is written in pure Python, it
+      lowers the barrier of entry for newcomers, and allows them to learn about MLIR concepts
+      without having the struggle of installing MLIR, and can even do so directly on a Jupyter
+      notebook hosted on the web. It is also a good option for prototyping dialects, since no
+      recompilation is required in between changes, resulting in faster iteration time.
+
+  - title: "What would it take to remove debug intrinsics?"
+    speaker: "Jeremy Morse, SN Systems (Sony Interactive Entertainment)"
+    video_url: "https://youtu.be/fZgFTOuhEzc"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/08-Morse-RemoveDebugIntrinsics.pdf"
+    description: |
+      It is a truth universally acknowledged that representing LLVMs debug-info with intrinsics
+      is a poor design, slowing compile-time performance and creating new categories of bugs.
+      However, removing them is not easy as our APIs lack a way of describing instruction
+      positions from outside of the instruction list. In this talk I'll illustrate what's bad
+      about the current design and explore the design space of possible solutions. I'll also
+      suggest what information a new instruction-movement API would need to maintain debug-info
+      if we didn't use intrinsics. Having a more precise API for describing instruction movement
+      will ease the work of pass authors in getting debug-info correct, and rid optimisation
+      passes of many footguns.
+
+  - title: "Compiling Ruby (with MLIR)"
+    speaker: "Alex Denisov"
+    video_url: "https://youtu.be/NfMX-dFMSr0"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/06-Denisov-CompilingRubyWithMLIR.pdf"
+    description: |
+      Ever wondered how to build an ahead-of-time (AOT) compiler for a dynamic, interpreted
+      language? Then this talk is a good starting point. In this presentation, you'll learn how
+      a typical interpreter works, how to map it onto an intermediate representation (MLIR in
+      this case), and how to produce an executable at the end of the compilation pipeline. By
+      the end of this talk, we hope to inspire you to take on the challenge of building a
+      compiler for your favorite interpreted language.
+
+  - title: "What’s new in MLIR?"
+    speaker: "Mehdi Amini"
+    video_url: "https://youtu.be/LPlRLt9w4b0"
+    slides_url: ""
+    description: |
+      MLIR has evolved significantly since it was introduced at EuroLLVM 2019. The last tutorial
+      was at the US Dev Mtg in 2020. In this talk, we'll survey new components and provide a
+      quick intro into how to take advantage of the new MLIR features from the last two years.
+
+  - title: "Structured Bindings and How to Analyze Them"
+    speaker: "Domján Dániel, Company"
+    video_url: "https://youtu.be/ZPcf7w-Tk3Y"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/02-Domjan-StructuredBindingsCombined.pdf"
+    description: |
+      A deeper dive into how structured bindings are handled inside the Clang Static Analyzer.
+      The process involves multiple parts of the analyzer throughout the static analysis
+      pipeline. This speech will give an insight into all the steps and tricks used in the
+      implementation.
+
+  - title: "MLIR Dialect Design and Composition for Front-End Compilers"
+    speaker: "Jeff Niu, Modular"
+    video_url: "https://youtu.be/hIt6J1_E21c"
+    slides_url: ""
+    description: |
+      MLIR dialect design is often more an art than a science. MLIR provides powerful
+      infrastructure for building IR and a vast ecosystem of dialects to use, but lacks
+      guidelines on how to actually do so. This talk is a deep dive on principles for MLIR
+      dialect design and composition. We will focus on criteria for dialect design, such as
+      concise and powerful representation and transparent composability, dialect design
+      principles and techniques, such as preserving high-level information and distinguishing
+      between "structural" and "computation" dialects, and challenges with integrating with
+      upstream dialects. We will study how good dialect design allows us efficiently and easily
+      write powerful optimizations on our IR and how to write generic IR transformations with
+      MLIR interfaces. We will present our findings through the lens of building a general-
+      purpose programming language with MLIR.
+
+  - title: "ML-LLVM-Tools: Towards Seamless Integration of Machine Learning in Compiler Optimizations"
+    speaker: "S. VenkataKeerthy, IIT Hyderabad"
+    video_url: "https://youtu.be/3RYPv27Tp6s"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/10-Venkat-ML-LLVM-Tools.pdf"
+    description: |
+      With the growth in usage of Machine Learning (ML) to support compiler optimization
+      decisions, there is a need for robust tools to support both training and inference. Such
+      tools should be scalable and independent of the underlying model, and the ML framework
+      upon which the model is built. We propose a unified infrastructure to aid ML based
+      compiler optimizations in LLVM at each of training and inference stages by using: (1)
+      LLVM-gRPC, a gRPC based framework to support training, (2) LLVM-InferenceEngine, a novel
+      ONNX based infrastructure to support ML inference within LLVM. Our infrastructure allows
+      seamless integration of both the approaches with ML based compiler optimization passes.
+      When our LLVM-InferenceEngine is integrated with a recently proposed approach that uses
+      Reinforcement Learning for performing Register Allocation, it results in a 12.5x speedup
+      in compile time.
+
+  - title: "Optimizing the Linux Kernel with LLVM BOLT"
+    speaker: "Maksim Panchenko, Meta"
+    video_url: "https://youtu.be/ivTCCTSMGZg"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/11-Panchenko-Optimizing-the-LinuxKernel-with-LLVM%20BOLT.pdf"
+    description: |
+      This technical talk explores the challenges and benefits of applying LLVM BOLT
+      optimizations to the Linux Kernel, given its unique binary structure and compiled code.
+      Early performance results are shared, and attendees gain insights into kernel-specific
+      code patterns and improvements that can be achieved with post-link optimizations.
+
+  - title: "mlir-meminfo : A Memory Model for MLIR"
+    speaker: "Kunwar Grover, IIIT Hyderabad & Arjun Pitchanathan, University of Edinburgh"
+    video_url: "https://youtu.be/7p3Vg3yZ29s"
+    slides_url: ""
+    description: |
+      A number of transformations in high-level MLIR dialects like Linalg, SCF and Affine focus
+      on building transformations for optimizing the cache behavior of programs. While building
+      models for the cost of computation for these transformations are easy as it is a local
+      property, data movement on cached architectures depends on the global state and is very
+      hard to predict. Current approaches for memory models for these transformations use
+      transformation-specific cost models, which do not compose from one transformation to
+      another due to the global properties of data movement. We introduce mlir-meminfo, a
+      lightweight, analytical memory model for MLIR. mlir-meminfo accurately predicts the cache
+      behavior of a program, with a particular focus on transformations, updating the cache
+      information almost instantly for modern neural networks like BERT, containing hundreds of
+      memory accesses. With the introduction of mlir-meminfo, we aim to revolutionize
+      transformation memory models for MLIR and improve developer productivity for performance
+      programming.

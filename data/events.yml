@@ -7,6 +7,7 @@ events:
     location: "Santa Clara, California"
     url: "/devmtg/2024-10/"
     event_site: "https://llvm.swoogo.com/2024devmtg"
+  
   - name: "EuroLLVM"
     id: "2024-04"
     start_date: "2024-04-10"
@@ -15,6 +16,7 @@ events:
     location: "Vienna Marriott, Vienna, Austria"
     url: "/devmtg/2024-04/"
     event_site: "https://llvm.swoogo.com/2024eurollvm"
+  
   - name: "LLVM Dev Mtg"
     id: "2023-10"
     start_date: "2023-10-10"
@@ -23,6 +25,16 @@ events:
     location: "Santa Clara, California"
     url: "/devmtg/2023-10/"
     event_site: "https://llvm.swoogo.com/2023devmtg"
+  
+  - name: "EuroLLVM"
+    id: "2023-05"
+    start_date: "2023-05-10"
+    end_date: "2023-05-11"
+    description: "2023 European LLVM Developers' Meeting"
+    location: "DoubleTree By Hilton, Glasgow, Scotland"
+    url: "/devmtg/2023-05/"
+    event_site: "https://llvm.swoogo.com/2023eurollvm/"
+
   - name: "2022 LLVM Dev Mtg"
     id: "2022-11"
     start_date: "2022-11-08"
