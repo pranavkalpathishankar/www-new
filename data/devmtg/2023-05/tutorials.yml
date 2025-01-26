@@ -1,0 +1,50 @@
+tutorials:
+  - title: "Developing BOLT pass"
+    speaker: "Amir Ayupov, Meta"
+    video_url: "https://youtu.be/kPKPkg5ugMg"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/Tutorial-May10/02-Ayupov-BOLTPass.pdf"
+    description: |
+      The tutorial covering the basics of BOLT pass development and debugging techniques, with
+      examples of adding a simple peephole rule and a standalone pass. Debugging examples cover
+      narrowing down a misoptimized function, producing an assembly test and visualizing the
+      CFG.
+
+  - title: "A whirlwind tour of the LLVM optimizer"
+    speaker: "Nikita Popov, Red Hat"
+    video_url: "https://youtu.be/7GHXDEIMGIY"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/Tutorial-May10/01-Popov-AWhirlwindTour-oftheLLVMOptimizer.pdf"
+    description: |
+      This is a tour of LLVM's optimization pipeline: It provides an overview of all
+      important optimization passes and analyses, as well as how they work together and fit into
+      the overall optimization pipeline.
+
+  - title: "Tutorial: Controllable Transformations in MLIR"
+    speaker: "Alex Zinenko, Google"
+    video_url: "https://youtu.be/P4gUj3QtH_Y"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/Tutorial-May11/02-Zinenko-TransformDialectTutorial.pdf"
+    description: |
+      MLIR has recently introduced support for declaratively specifying and controlling compiler
+      transformations via the transform dialect. It allows one to request compiler
+      transformations using compiler IR itself, which can be embedded into the original IR that
+      is being transformed (similarly to pragmas) or supplied separately (similarly to
+      scheduling languages). This tutorial presents the concepts of the MLIR transform dialect
+      and related infrastructure. It will be accompanied by a practical demonstration of three
+      use scenarios: Composing transform dialect operations available in (upstream) MLIR
+      to perform a sequence of optimizing transformations that results in efficient code for an
+      MLIR linear algebra operation, defining new transform dialect operations and adapting
+      existing transformation code to work with the transform dialect infrastructure, and
+      setting up and using the transform dialect infrastructure in a downstream out-of-tree
+      project with custom dialects, transformations and passes. After following the tutorial,
+      the attendees will be able to apply the transform dialect in their work and extend
+      it when necessary. Basic familiarity with MLIR is a prerequisite.
+
+  - title: "GlobalISel by example"
+    speaker: "Alex Bradbury, Igalia"
+    video_url: "https://youtu.be/PEP0DfAT_N8"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/Tutorial-May11/01-Bradbury-GlobalISelTutorial.pdf"
+    description: |
+      The GlobalISel framework was introduced with the intention of replacing
+      SelectionDAG, aiming to provide advantages in terms of performance, granularity, and
+      modularity. This tutorial will provide everything you need to know about using this
+      framework for a new target, focusing on RISC-V as an example and working through some
+      specific examples of challenging cases.

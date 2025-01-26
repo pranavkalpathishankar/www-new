@@ -1,0 +1,24 @@
+keynote:
+  - title: "Order out of Chaos, The LLVM Release Process"
+    speaker: Tobias Hieta, Ubisoft
+    video_url: https://youtu.be/onaNb2U1Od8
+    slides_url: https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May10/01-Tobias%20Hieta-LLVM-Release-Process.pdf
+    description: |
+      In this Talk, I will explain how the LLVM release process works. How fixes are
+      created, staged, tested, and reviewed to be included in a release and how community
+      members can get involved and help improve future releases of LLVM.
+
+  - title: "'-fbounds-safety': Enforcing bounds safety for production C code"
+    speaker: Yeoul Na, Apple
+    video_url: https://youtu.be/RK9bfrsMdAM
+    slides_url: https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/01-Na-fbounds-safety.pdf
+    description: |
+      In this talk we will describe "-fbounds-safety", a new language extension
+      implemented in Clang that brings bounds safety to the C language. The language extension
+      addresses multiple of the practical challenges that have made existing approaches to safer
+      C dialects difficult to adopt. Our approach facilitates incremental adoption by preserving
+      source compatibility with standard C and preserving ABI-compatibility with C binaries. It
+      also minimizes adoption effort by reconciling wide pointers (a.k.a. "fat" pointers) with
+      ABI-preserving bounds annotations. "-fbounds-safety" has been adopted on millions of lines
+      of production C code and proven to work in an industrial setting.
+

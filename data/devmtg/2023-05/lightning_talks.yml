@@ -1,0 +1,112 @@
+lightning_talks:
+
+  - title: "LLVM IR as an Embedded Domain-Specific Language"
+    speaker: "Nikita Baksalyar"
+    video_url: ""
+    slides_url: ""
+    description: |
+      This lightning talk will demonstrate an alternative way of using the LLVM API. We
+      will develop a simple domain-specific language using metaprogramming techniques and see
+      how it simplifies code and reduces boilerplate.
+
+  - title: "Using MLIR for Dalvik Bytecode Analysis"
+    speaker: "Eduardo Blázquez, University Carlos III of Madrid"
+    video_url: "https://youtu.be/hfqOivYdD40"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/01-Eduardo-EuroLLVM2023.pdf"
+    description: |
+      Using intermediate representations allows analysts to write optimizations and code
+      analysis passes easier than parsing binary or bytecode directly. Kunai is a library
+      intended for static analysis of dalvik bytecode, in a newer version of the library, the
+      idea is to use the capabilities and possibilities offered by MLIR, writing a new dialect
+      centered on Dalvik instructions.
+
+
+  - title: "Spot the Difference with LLVM-FLOW: an open-source interactive visualization tool for comparing IR CFGs"
+    speaker: "Jinmyoung Lee, KC Machine Learning Lab"
+    video_url: "https://youtu.be/bCwteA-9mSs"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/08-Lee-LLVMFlow.pdf"
+    description: |
+      One way to understand and debug IR optimization process is to visualize Control Flow
+      Graphs (CFGs) before and after optimization and compare them. However, since the CFGs can
+      be drastically different, comparing these two graphs is a challenging task. LLVM-FLOW
+      (https://llvmflow.kc-ml2.com/), an open-source interactive CFG visualization web app, is
+      developed to ease the difficulty by highlighting the same components in two graphs. By
+      clicking the highlighted node, you can easily find the corresponding node in another
+      graph. LLVM-FLOW is a useful tool for LLVM experts to understand the IR flow when writing
+      a custom pass, as well as for LLVM newcomers to study the IR pattern's behavior.
+
+
+  - title: "Leveraging MLIR for Better SYCL Compilation"
+    speaker: "Victor Lomüller, Codeplay Software"
+    video_url: "https://youtu.be/UOOPFpojGN8"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/02-Lomuller-SYCL-MLIR.pdf"
+    description: |
+      SYCL is an open standard programming model for heterogeneous device programming,
+      based on C++. Similar to optimizing C++ compilers, SYCL compilers would therefore also
+      profit from a more suitable high-level representation for optimization. This talk presents
+      first results on our investigation on how MLIR can be leveraged to improve SYCL
+      compilation flows and optimizations.
+
+  - title: "Arm/AArch64 Embedded Development with LLD : What’s New"
+    speaker: "Amilendra Kodithuwakku, Arm Limited"
+    video_url: "https://youtu.be/cJCr4XqFmFY"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/03-Amilendra-Arm-AArch64-EmbeddedDevelopment-with-LLD.pdf"
+    description: |
+      Arm Limited has been continuously adding LLD support for embedded development on
+      Arm/AArch64 targets. This lightning talk will be a short explanation of recently added
+      features. 1) Armv8-M Security Extensions, also known as, Cortex-M Security Extensions
+      (CMSE) 2) AArch64 Big Endian Support
+
+  - title: "Using automated tests to tune the -Og pipeline"
+    speaker: "Stephen Livermore-Tozer, SN Systems (Sony Interactive Entertainment)"
+    video_url: "https://youtu.be/f1uHy-ukucc"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/04-Tozer-UsingAutomatedTestsToTuneOgSlides.pdf"
+    description: |
+      In clang, the -Og flag is intended to run optimizations that will not significantly reduce
+      the quality of the program's debug information. Rather than making informed decisions
+      about which optimizations will preserve debug info, this flag currently uses the -O1
+      pipeline, to run a few optimizations and hope that debug info will not be significantly
+      affected. This is due to the lack of useful data about how well the various optimization
+      passes in LLVM preserve debug info. In this talk I explain how we at Sony have attempted
+      to solve this problem using Dexter, a tool for testing debug info quality, in an automated
+      test pipeline to empirically explore different pipeline designs to find a fast and
+      debuggable -Og pipeline.
+
+  - title: "Buddy-CAAS: Compiler As A Service for MLIR"
+    speaker: "Hongbin Zhang, Institute of Software Chinese Academy of Sciences"
+    video_url: "https://youtu.be/f7USv-oAtvI"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/05-Zhang-Buddy-CAAS-CompilerAs-AService-forMLIR.pdf"
+    description: |
+      This talk will introduce the Buddy-CAAS, Buddy Compiler As A Service for MLIR. In
+      practice, debugging and configuring an MLIR pass pipeline is always time-consuming, and
+      there are no good aid tools. In order to improve the efficiency of compiler developers, we
+      implemented an online platform called Buddy-CAAS (https://buddy.isrc.ac.cn/). Our platform
+      allows MLIR developers to configure the pass pipeline, view the intermediate products, and
+      execute on a specific backend through an emulator. We are also integrating more features
+      on our platform to power the MLIR ecosystem.
+
+  - title: "llvm-buildmark - observations, tips, and tricks on reducing LLVM build times"
+    speaker: "Alex Bradbury, Igalia"
+    video_url: "https://youtu.be/ka1wehtGQ-4"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/06-Bradbury-llvm-buildmark.pdf"
+    description: |
+      This talk provides a series of statistics on LLVM build times (both incremental and
+      in a simulation of common edit-compile-test cycles) using a simple script that aims to
+      provide a common baseline statistic. We'll look at some figures across real-world
+      hardware, how LLVM build performance has changed over time, and the impact of various
+      options (e.g. -DBUILD_SHARED_LIBS=True, -DLLVM_USE_SPLIT_DWARF=True, GCC vs Clang, lld vs
+      ld.{bfd,gold} and so on).
+
+  - title: "Lock Coarsening optimizations for loops in Java"
+    speaker: "Anna Thomas, Azul Systems"
+    video_url: "https://youtu.be/IpGqTq8cVKw"
+    slides_url: "https://llvm.org/devmtg/2023-05/slides/Lightning-Talks/07-Thomas-LockOpts.pdf"
+    description: |
+      This talk will focus on lock optimizations done for loops in Java by Falcon, Azul’s LLVM
+      based JIT compiler. Synchronization is one the basic techniques that guarantee correctness
+      in parallel execution. This is implemented using monitors in Java. Monitor acquires are
+      expensive CPU operations, which also block various loop and reordering compiler
+      optimizations. We will talk about two specific loop optimizations done for lock coarsening
+      and the benefits it brings. For both these techniques, we introduced loop chunking in LLVM
+      as a mechanism to coarsen locks over. We will go over the legality and cost model aspects
+      as well.
