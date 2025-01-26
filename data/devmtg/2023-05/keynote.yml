@@ -8,7 +8,7 @@ keynote:
       created, staged, tested, and reviewed to be included in a release and how community
       members can get involved and help improve future releases of LLVM.
 
-  - title: "-fbounds-safety: Enforcing bounds safety for production C code"
+  - title: "'-fbounds-safety': Enforcing bounds safety for production C code"
     speaker: Yeoul Na, Apple
     video_url: https://youtu.be/RK9bfrsMdAM
     slides_url: https://llvm.org/devmtg/2023-05/slides/TechnicalTalks-May11/01-Na-fbounds-safety.pdf
