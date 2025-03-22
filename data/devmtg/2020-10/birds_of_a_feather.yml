@@ -1,0 +1,24 @@
+birds_of_a_feather:
+  - title: "ClangBuiltLinux BoF"
+    speaker: "N. Desaulniers"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Loop Optimization BoF"
+    speaker: "M. Kruse; K. Barton"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "LLVM Just-In-Time Compilers BoF"
+    speaker: "L. Hames"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Code Size Optimization"
+    speaker: "S. Bartell; V. Adve"
+    video_url: ""
+    slides_url: ""
+    description: |
