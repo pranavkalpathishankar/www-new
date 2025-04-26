@@ -1,0 +1,66 @@
+posters:
+  - title: "CIRCT: MLIR for Hardware Design"
+    speaker: "A. Wilson; S. Neuendorffer; C. Lattner"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "An Approach to Generate Correctly Rounded Math Libraries for New Floating Point Variants"
+    speaker: "J. Lim; M. Aanjaneya; J. Gustafson; S. Nagarakatte"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Compiling a Higher-Order Smart Contract Language to LLVM"
+    speaker: "V. Nagaraj; J. Johannsen; A. Trunov; G. Pirlea; A. Kumar; I. Sergey"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "To -jInfinity & Beyond"
+    speaker: "W. Moses; K. Kwok; L. Sha"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "llvm-diva – Debug Information Visual Analyzer"
+    speaker: "C. Enciso"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Quickly Finding RISC-V Code Quality Issues with Differential Analysis"
+    speaker: "L. Marques"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Error estimates of floating-point numbers and Jacobian matrix computation in Clad"
+    speaker: "V. Vassilev; A. Penev; R. Shakhov"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Data Dependency using MSSA: Analysis and Contrast"
+    speaker: "R. Sharma; W. Tsang"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Connecting Clang to The ROSE Source-to-Source Compiler"
+    speaker: "A. Wang; P. Lin; C. Liao; Y. Yan"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Incremental Compilation Support in Clang"
+    speaker: "V. Vassilev; D. Lange"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Enzyme: High-Performance Automatic Differentiation of LLVM"
+    speaker: "W. Moses; V. Churavy"
+    video_url: ""
+    slides_url: ""
+    description: |

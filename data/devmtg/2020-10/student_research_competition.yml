@@ -1,0 +1,30 @@
+student_research_competition:
+  - title: "Enzyme: High-Performance Automatic Differentiation of LLVM"
+    speaker: "W. Moses; V. Churavy"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "SPAM: Stateless Permutation of Application Memory with LLVM"
+    speaker: "M. Ziad; M. Arroyo; S. Sethumadhavan"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "HPVM-FPGFA: Leveraging Compiler Optimizations for Hardware-Agnostic FPGA Programming"
+    speaker: "A. Ejjeh; K. Kanwar; M. Kotsifakou; V. Adve; R. Rutenbar"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Guided Linking: shrinking and speeding up dynamically linked code"
+    speaker: "S. Bartell; V. Adve"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "ApproxTuner: A Compiler and Runtime System for Adaptive Approximations"
+    speaker: "H. Sharif; M. Kotsifakou; Y. Zhao; A. Kothari; B. Schreiber; E. Wang; Y. Sarita; N. Zhao; K. Joshi; V. Adve; S. Misailovic; S. Adve"
+    video_url: ""
+    slides_url: ""
+    description: |
