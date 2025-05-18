@@ -61,3 +61,12 @@ events:
     location: "Virtual"
     url: "/devmtg/2020-10/"
     event_site: "https://llvm.org/devmtg/2020-09/"
+
+  - name: "2019 LLVM Developers' Meeting"
+    id: "2019-10"
+    start_date: "2019-10-22"
+    end_date: "2019-10-23"
+    description: "2019 LLVM Developers' Meeting"
+    location: "San Jose Convention Center, San Jose, CA"
+    url: "/devmtg/2019-10/"
+    event_site: "https://llvm.org/devmtg/2019-10/"

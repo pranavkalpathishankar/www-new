@@ -1,0 +1,84 @@
+posters:
+- title: "TON Labs Backend for TON Blockchain"
+  speaker: "Dmitry Borisenkov, Dmitry Shtukenberg, Leonid Kholodov"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "LLVM Build Times Using a Program Repository"
+  speaker: "Rusell Gallop, Phil Camp"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "RISC-V Bit Manipulation Support in the Clang/LLVM Toolchain"
+  speaker: "Scott Egerton, Paolo Savini"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "Attributor, a Framework for Interprocedural Information Deduction"
+  speaker: "Johannes Doerfert, Hideto Ueno, Stefan Stipanovic"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "Overflows Be Gone: Checked C for Memory Safety"
+  speaker: "Mandeep Singh Grang"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "Cross-Translation Unit Optimization via Annotated Headers"
+  speaker: "William S. Moses"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "Quantifying Dataflow Analysis with Gradients in LLVM"
+  speaker: "Abhishek Shah"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "Floating Point Consistency in the Wild: A practical evaluation of how compiler optimizations affect high performance floating point code"
+  speaker: "Jack J Garzella"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "Static Analysis of OpenMP Data Mapping for Target Offloading"
+  speaker: "Prithayan Barua"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "NEC SX-Aurora as a Scalable Vector Playground"
+  speaker: "Kazuhisa Ishizaka"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "A Unified Debug Server For Deeply Embedded Systems and LLDB"
+  speaker: "Simon Cook"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "Speculative Compilation in ORC JIT"
+  speaker: "Praveen Velliengiri"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "Loom: Weaving Instrumentation for Program Analysis"
+  speaker: "Brian Kidney"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "Lowering tale: Supporting 64 bit pointers in RISCV 32 bit LLVM backend"
+  speaker: "Reshabh Sharma"
+  video_url: ""
+  slides_url: ""
+  description: |

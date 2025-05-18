@@ -1,0 +1,12 @@
+panels:
+- title: "Panel: Inter-procedural Optimization (IPO)"
+  speaker: "Teresa Johnson, Philip Reames, Chandler Carruth, Johannes Doerfert"
+  video_url: "https://youtu.be/cC2cspQgSxM"
+  slides_url: ""
+  description: |
+
+- title: "The Loop Optimization Working Group"
+  speaker: "Kit Barton, Michael Kruse, TBD"
+  video_url: "https://youtu.be/CEVznqrzVVI"
+  slides_url: ""
+  description: |

@@ -1,0 +1,24 @@
+student_research_competition:
+- title: "Cross-Translation Unit Optimization via Annotated Headers"
+  speaker: "William S. Moses"
+  video_url: "https://youtu.be/elmio6AoyK0"
+  slides_url: ""
+  description: |
+
+- title: "Quantifying Dataflow Analysis with Gradients in LLVM"
+  speaker: "Abhishek Shah"
+  video_url: "https://youtu.be/ZqEXZp9URIY"
+  slides_url: "https://llvm.org/devmtg/2019-10/slides/Shah-QuantifyingDataflowAnalysisWithGradientsInLLVM.pdf"
+  description: |
+
+- title: "Floating Point Consistency in the Wild: A practical evaluation of how compiler optimizations affect high performance floating point code"
+  speaker: "Jack J Garzella"
+  video_url: "https://youtu.be/5Jy3VCoft58"
+  slides_url: ""
+  description: |
+
+- title: "Static Analysis of OpenMP Data Mapping for Target Offloading"
+  speaker: "Prithayan Barua"
+  video_url: "https://youtu.be/9ZPQpo8QuyI"
+  slides_url: "https://llvm.org/devmtg/2019-10/slides/Barua-StaticAnalysisofOpenMPPrograms.pdf"
+  description: |
