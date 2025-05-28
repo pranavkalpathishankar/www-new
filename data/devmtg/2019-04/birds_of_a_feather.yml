@@ -1,0 +1,18 @@
+birds_of_a_feather:
+- title: "LLDB"
+  speaker: "Jonas Devlieghere"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "Towards Better Code Generator Design and Unification for a Stack Machine"
+  speaker: "Leonid Kholodov, Dmitry Borisenkov"
+  video_url: ""
+  slides_url: ""
+  description: |
+
+- title: "Debug Info"
+  speaker: "Adrian Prantl"
+  video_url: ""
+  slides_url: ""
+  description: |
