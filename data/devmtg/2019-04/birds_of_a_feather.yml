@@ -1,0 +1,48 @@
+birds_of_a_feather:
+  - title: "RFC: Towards Vector Predication in LLVM IR"
+    speaker: "Simon Moll (Saarland University), Sebastian Hack (Saarland University)"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "IPO --- Where are we, where do we want to go?"
+    speaker: "Johannes Doerfert (Argonne National Laboratory), Kit Barton (IBM Toronto Lab)"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "LLVM binutils"
+    speaker: "James Henderson (SN Systems (Sony Interactive Entertainment)), Jordan Rupprecht (Google)"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "RFC: Reference OpenCL Runtime library for LLVM"
+    speaker: "Andrew Savonichev (Intel), Alexey Sachkov (Intel)"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "LLVM Interface Stability Guarantees BoF"
+    speaker: "Stephen Kelly"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Clang Static Analyzer BoF"
+    speaker: "Artem Dergachev (Apple), Devin Coughlin (Apple), Gabor Horvath (Eotvos Lorand University)"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "LLVM Numerics Improvements"
+    speaker: "Michael Berg (Apple), Steve Canon (Apple)"
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "LLVM Foundation BoF"
+    speaker: "LLVM Foundation Board of Directors"
+    video_url: ""
+    slides_url: ""
+    description: |
