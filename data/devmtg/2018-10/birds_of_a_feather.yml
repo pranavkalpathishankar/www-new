@@ -1,0 +1,54 @@
+birds_of_a_feather:
+  - title: "Debug Info BoF"
+    speaker: Vedant Kumar, Adrian Prantl
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Lifecycle of LLVM bug reports"
+    speaker: Kristof Beyls, Paul Robinson
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "GlobalISel Design and Development"
+    speaker: Amara Emerson
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Migrating to C++14, and beyond!"
+    speaker: JF Bastien
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Ideal versus Reality: Optimal Parallelism and Offloading Support in LLVM"
+    speaker: Xinmin Tian, Hal Finkel, TB Schardl, Johannes Doerfert, Vikram Adve
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Should we go beyond `#pragma omp declare simd`?"
+    speaker: Francesco Petrogalli
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Implementing the parallel STL in libc++"
+    speaker: Louis Dionne
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Clang Static Analyzer BoF"
+    speaker: Devin Coughlin
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "LLVM Foundation BoF"
+    speaker: LLVM Foundation Board of Directors
+    video_url: ""
+    slides_url: ""
+    description: |
