@@ -1,0 +1,132 @@
+lightning_talks:
+  - title: "Automatic Differentiation in C/C++ Using Clang Plugin Infrastructure"
+    speaker: Vassil Vassilev, Aleksandr Efremov
+    video_url: "https://youtu.be/QciQW1bTMe4"
+    slides_url: ""
+    description: |
+
+  - title: "More efficient LLVM devs: 1000x faster build file generation, -j1000 builds, and O(1) test execution"
+    speaker: Nico Weber
+    video_url: "https://youtu.be/gZwu8aBmqtc"
+    slides_url: "https://llvm.org/devmtg/2018-10/slides/Weber-FunnerLLVMDevelopment.pdf"
+    description: |
+
+  - title: "Heap-to-Stack Conversion"
+    speaker: Hal Finkel
+    video_url: "https://youtu.be/lTgERgPNTF8"
+    slides_url: ""
+    description: |
+
+  - title: "TWINS - This Workflow is Not Scrum: Adapting Agile for Open Source Interaction"
+    speaker: Joshua Magee
+    video_url: "https://youtu.be/JZ2ZXYCBUWU"
+    slides_url: ""
+    description: |
+
+  - title: "Mutating the clang AST from Plugins"
+    speaker: Andrei Homescu, Per Larsen
+    video_url: "https://youtu.be/_rUwW8Awc5s"
+    slides_url: ""
+    description: |
+
+  - title: "atJIT: an online, feedback-directed optimizer for C++"
+    speaker: Kavon Farvardin, Hal Finkel, Michael Kruse, John Reppy
+    video_url: "https://youtu.be/r1i1HQzf6l0"
+    slides_url: ""
+    description: |
+
+  - title: "Repurposing GCC Regression for LLVM Based Tool Chains"
+    speaker: Jeremy Bennett, Simon Cook, Ed Jones
+    video_url: "https://youtu.be/GV4PoWu0UZ0"
+    slides_url: ""
+    description: |
+
+  - title: "ThinLTO Summaries in JIT Compilation"
+    speaker: Stefan Gränitz
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Refuting False Bugs in the Clang Static Analyzer using SMT Solvers"
+    speaker: Mikhail R. Gadelha
+    video_url: "https://youtu.be/SO84AmbWiLA"
+    slides_url: ""
+    description: |
+
+  - title: "What’s New In Outlining"
+    speaker: Jessica Paquette
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "DWARF v5 Highlights - Why You Care"
+    speaker: Paul Robinson, Pavel Labath, Wolfgang Pieb
+    video_url: "https://youtu.be/2Pb00xz8uH8"
+    slides_url: ""
+    description: |
+
+  - title: "Using TAPI to Understand APIs and Speed Up Builds"
+    speaker: Steven Wu, Juergen Ributzka
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Hardware Interference Size"
+    speaker: JF Bastien
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Dex: efficient symbol index for Clangd"
+    speaker: Kirill Bobyrev, Eric Liu, Sam McCall, Ilya Biryukov
+    video_url: "https://youtu.be/VhxrFor3VyQ"
+    slides_url: ""
+    description: |
+
+  - title: "Flang Update"
+    speaker: Steve Scalpone
+    video_url: "https://youtu.be/Mkccs4EIiac"
+    slides_url: ""
+    description: |
+
+  - title: "clang-doc: an elegant generator for more civilized documentation"
+    speaker: Julie Hockett
+    video_url: "https://youtu.be/bTzvPhKN0YI"
+    slides_url: ""
+    description: |
+
+  - title: "Code Coverage with CPU Performance Monitoring Unit"
+    speaker: Ivan Baev, Bharathi Seshadri, Stefan Pejic
+    video_url: "https://youtu.be/g8ONPzDigYw"
+    slides_url: ""
+    description: |
+
+  - title: "VecClone Pass: Function Vectorization via LoopVectorizer"
+    speaker: Matt Masten, Evgeniy Tyurin, Konstantina Mitropoulou
+    video_url: "https://youtu.be/BIptGq6DssE"
+    slides_url: ""
+    description: |
+
+  - title: "ISL Memory Management Using Clang Static Analyzer"
+    speaker: Malhar Thakkar, Ramakrishna Upadrasta
+    video_url: "https://youtu.be/AgHy_4cQzMU"
+    slides_url: ""
+    description: |
+
+  - title: "Eliminating always_inline in libc++: a journey of visibility and linkage"
+    speaker: Louis Dionne
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Error Handling in Libraries: A Case Study"
+    speaker: James Henderson
+    video_url: "https://youtu.be/YSEY4pg1YB0"
+    slides_url: ""
+    description: |
+
+  - title: "NEC SX-Aurora - A Scalable Vector Architecture"
+    speaker: Erich Focht
+    video_url: "https://youtu.be/Ujixa4WI8ek"
+    slides_url: ""
+    description: |

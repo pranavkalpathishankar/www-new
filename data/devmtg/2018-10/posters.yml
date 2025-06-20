@@ -1,0 +1,72 @@
+posters:
+  - title: "Gaining fine-grain control over pass management"
+    speaker: Serge Guelton, Adrien Guinet, Pierrick Brunet, Juan Manuel Martinez, Béatrice Creusillet
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Integration of OpenMP, libcxx and libcxxabi packages into LLVM toolchain"
+    speaker: Reshabh Sharma
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Improving Debug Information in LLVM to Recover Optimized-out Function Parameters"
+    speaker: Ananthakrishna Sowda, Djordje Todorovic, Nikola Prica, Ivan Baev
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Automatic Compression for LLVM RISC-V"
+    speaker: Sameer AbuAsal, Ana Pazos
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Guaranteeing the Correctness of LLVM RISC-V Machine Code with Fuzzing"
+    speaker: Jocelyn Wei, Ana Pazos, Mandeep Singh Grang
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "NEC SX-Aurora - A Scalable Vector Architecture"
+    speaker: Kazuhisa Ishizaka, Kazushi Marukawa, Erich Focht, Simon Moll, Matthias Kurtenacker, Sebastian Hack
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Extending Clang Static Analyzer to enable Cross Translation Unit Analysis"
+    speaker: Varun Subramanian
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Refuting False Bugs in the Clang Static Analyzer using SMT Solvers"
+    speaker: Mikhail R. Gadelha
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "libcu++: Porting LLVM's C++ Standard Library to CUDA"
+    speaker: Bryce Lelbach
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Repurposing GCC Regression for LLVM Based Tool Chains"
+    speaker: Jeremy Bennett, Simon Cook, Ed Jones
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Memory Tagging, how it improves C++ memory safety, and what does it mean for compiler optimizations"
+    speaker: Kostya Serebryany, Evgenii Stepanov, Vlad Tsyrklevich
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "goSLP: Globally Optimized Superword Level Parallelism Framework"
+    speaker: Charith Mendis
+    video_url: ""
+    slides_url: ""
+    description: |

@@ -1,0 +1,12 @@
+keynote:
+  - title: "Glow: LLVM-based machine learning compiler"
+    speaker: "Nadav Rotem, Roman Levenstein"
+    video_url: "https://youtu.be/cTz7c5dn5Gc"
+    slides_url: ""
+    description: |
+
+  - title: "The Future Direction of C++ and the Four Horsemen of Heterogeneous Computing"
+    speaker: "Michael Wong"
+    video_url: "https://youtu.be/7Y3-pV_b-1U"
+    slides_url: ""
+    description: |

@@ -1,0 +1,24 @@
+tutorials:
+  - title: "Updating ORC JIT for Concurrency"
+    speaker: Lang Hames, Breckin Loggins
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Register Allocation: More than Coloring"
+    speaker: Matthias Braun
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "How to use LLVM to optimize your parallel programs"
+    speaker: William S. Moses
+    video_url: "https://youtu.be/tmBThobaDBw"
+    slides_url: "https://llvm.org/devmtg/2018-10/slides/Moses-OptimizeYourParallelPrograms.pdf"
+    description: |
+
+  - title: "LLVM backend development by example (RISC-V)"
+    speaker: Alex Bradbury
+    video_url: "https://youtu.be/AFaIP-dF-RA"
+    slides_url: ""
+    description: |
