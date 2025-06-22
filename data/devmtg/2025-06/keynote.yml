@@ -1,0 +1,8 @@
+keynote:
+  - title: "LLVM's First 25 Years and the Road Ahead"
+    speaker: "Chris Lattner"
+    video_url: "" 
+    slides_url: "https://llvm.org/devmtg/2025-06/slides/keynote/lattner-keynote.pdf" 
+    description: |
+      The creator of LLVM, Swift, Clang, and MLIR and currently the co-founder and CEO of
+      Modular gives a talk on the history and future of the LLVM Project.

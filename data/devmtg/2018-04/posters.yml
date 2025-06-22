@@ -1,0 +1,30 @@
+posters:
+  - title: "Automatic Profiling for Climate Modeling"
+    speaker: A. Gerbes, N. Jumah, J. Kunkel
+    video_url: ""
+    slides_url: "http://llvm.org/devmtg/2018-04/slides/Gerbes-Automatic%20Profiling%20for%20Climate%20Modeling.pdf"
+    description: |
+
+  - title: "Cross Translation Unit Analysis in Clang Static Analyzer: Qualitative Evaluation on C/C++ projects"
+    speaker: G. Horvath, P. Szecsi, Z. Gera, D. Krupp
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Effortless Differential Analysis of Clang Static Analyzer Changes"
+    speaker: G. Horváth, R. Kovács, P. Szécsi
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Offloading OpenMP Target Regions to FPGA Accelerators Using LLVM"
+    speaker: L. Sommer, J. Oppermann, J. Korinth, A. Koch
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Using clang as a Frontend on a Formal Verification Tool"
+    speaker: M. Gadelha, J. Morse, L. Cordeiro, D. Nicole
+    video_url: ""
+    slides_url: ""
+    description: |
