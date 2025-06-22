@@ -97,3 +97,12 @@ events:
     location: "Hotel Princesa Sofia, Barcelona, Spain"
     url: "/devmtg/2016-03/"
     event_site: "https://llvm.org/devmtg/2016-03/#schedule"
+
+  - name: "2018 European LLVM Developers Meeting"
+    id: "2018-04"
+    start_date: "2018-04-16"
+    end_date: "2018-04-17"
+    description: "2018 European LLVM Developers Meeting"
+    location: "Bristol Marriott Hotel City Centre, Bristol, UK"
+    url: "/devmtg/2018-04/"
+    event_site: "https://llvm.org/devmtg/2018-04/"

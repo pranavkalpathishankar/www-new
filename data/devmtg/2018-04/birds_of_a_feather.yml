@@ -1,0 +1,24 @@
+birds_of_a_feather:
+  - title: "Towards implementing #pragma STDC FENV_ACCESS"
+    speaker: U. Weigand
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Build system integration for interactive tools"
+    speaker: I. Biryukov, H. Wu, E. Liu, S. McCall
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "Clang Static Analyzer BoF"
+    speaker: Devin Coughlin
+    video_url: ""
+    slides_url: ""
+    description: |
+
+  - title: "LLVM Foundation BoF"
+    speaker: LLVM Foundation Board of Directors
+    video_url: ""
+    slides_url: ""
+    description: |
