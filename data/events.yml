@@ -117,6 +117,15 @@ events:
     event_site: "https://llvm.org/devmtg/2018-04/"
 
   - name: "LLVM Developers' Meeting"
+    id: "2010-11"
+    start_date: "2010-11-04"
+    end_date: "2010-11-04"
+    description: "2010 LLVM Developers' Meeting"
+    location: "Hilton, 300 Almaden Boulevard, San Jose, California"
+    url: "/devmtg/2010-11/"
+    event_site: "https://llvm.org/devmtg/2010-11/"
+
+  - name: "LLVM Developers' Meeting"
     id: "2009-10"
     start_date: "2009-10-02"
     end_date: "2009-10-02"
