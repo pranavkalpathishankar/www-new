@@ -1,0 +1,12 @@
+keynote:
+- title: "Optimization in LLVM - Numbers, A Case Study, and Looking Forward"
+  speaker: "Chandler Carruth (Google)"
+  slides_url: ""
+  video_url: "https://youtu.be/hmTi_FDe9pY"
+  description: "With all of the excitement surrounding Clang, LLD, LLDB, Sanitizers, and other projects in LLVM, it is easy to let its origins slip your mind. However, LLVM was and remains a platform for optimizing compilers and related parts of the toolchain. Today, the LLVM + Clang optimizing C++ compiler is very powerful and can handle a wide range of code, but how well does it compete with modern versions of GCC? What are the root causes of some of the more striking differences? What is coming next in LLVM that will significantly impact the optimizing power of the toolchain?"
+
+- title: "How Computers Work"
+  speaker: "Jakob Olesen (Apple)"
+  slides_url: "https://llvm.org/devmtg/2013-04/olesen-slides.pdf"
+  video_url: ""
+  description: "Most high-performance CPU micro-architectures designed in the last 20 years are super-scalar and execute instructions out of order. I intend to give an overview of how out-of-order CPUs work, and how we can generate code that performs well on modern micro-architectures. Some optimizations are only beneficial if the compiler has a detailed understanding of how the code is going to be executed, and the new machine trace metrics analysis can be used to guide these optimizations. I'll talk about current and future optimizations that can take advantage of this detailed execution information."
