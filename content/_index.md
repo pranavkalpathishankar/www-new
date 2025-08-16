@@ -12,7 +12,7 @@ static and dynamic compilation of arbitrary programming languages. Since then,
 LLVM has grown to be an umbrella project consisting of a number of subprojects,
 many of which are being used in production by a wide variety of commercial and
 open source projects as well as being widely used in academic research. Code in
-the LLVM project is licensed under the "Apache 2.0 License with LLVM exceptions.
+the LLVM project is licensed under the "Apache 2.0 License with LLVM exceptions".
 
 {{<subprojects>}}
 
