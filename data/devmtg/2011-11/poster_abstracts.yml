@@ -1,0 +1,24 @@
+poster_abstracts:
+- title: "Parfait - A Scalable Static Bug-Checking Tool Built on LLVM"
+  speaker: "Cristina Cifuentes, Nathan Keynes, Andrew Craik, Lian Li, Nathan Hawes, Andrew Browne, Manuel Valdiviezo (Oracle Labs)"
+  slides_url: ""
+  video_url: ""
+  description: "Parfait is a static bug-checking tool for C/C++ applications built on the LLVM framework. Parfait achieves precision and scalability by using a layered program analysis framework. Different analyses of varying precision and runtime expense are invoked on demand to detect defects. Parfait has been deployed across multiple platforms including Oracle Solaris Studio on Solaris, Microsoft Visual C/C++ on Windows (excluding MFC headers), GCC on Linux, and Intel C/C++ Compiler on Linux. Despite processing millions of lines of code, the false-positive rate remains below 10%."
+
+- title: "Code verification based on attributes annotation - Implementing custom attributes check using Clang"
+  speaker: "Michael Han (Autodesk)"
+  slides_url: ""
+  video_url: ""
+  description: "Introduces 'Hippocrates', a tool developed at Autodesk using Clang's attribute system to verify functions behave as designed. The talk focuses on the motivation, a high-level overview of Clang modifications, and results from applying the tool on large codebases like Autodesk Maya with millions of lines of C++ code."
+
+- title: "LunarGLASS: A LLVM-based shader compiler stack"
+  speaker: "Michael Ilseman (LunarG)"
+  slides_url: ""
+  video_url: ""
+  description: "LunarGLASS is an LLVM-based shader compiler stack that splits the intermediate representation into two levels: a platform-independent top level and a bottom level dynamically tailored to different architectures. This approach improves shader portability and optimization across GPU architectures."
+
+- title: "Symbolic Testing of OpenCL Code"
+  speaker: "Peter Collingbourne (Imperial College London)"
+  slides_url: ""
+  video_url: ""
+  description: "Research on verification of OpenCL kernels using symbolic execution. Implemented in KLEE-CL (based on KLEE/KLEE-FP), it models the OpenCL environment symbolically to detect mismatches, data races, and memory errors. Applied to the Parboil benchmark suite, Bullet physics library, and OP2 library, it found seven errors: three OpenCL/C mismatches, two memory errors, one OpenCL compiler bug, and one race condition."
