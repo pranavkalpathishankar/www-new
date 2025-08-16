@@ -1,0 +1,42 @@
+birds_of_a_feather:
+- title: "BOF: Performance Tracking & Benchmarking Infrastructure"
+  speaker: "Kristof Beyls (ARM)"
+  slides_url: ""
+  video_url: ""
+  description: "We lack a good public infrastructure to efficiently track performance improvements/regressions. As a small step to improve on the current situation, I propose to organize a BoF to discuss mainly the following topics: (a) What advantages do we want the performance tracking and benchmarking infrastructure to give us? (b) What are the main technical and non-technical challenges we expect for setting up an infrastructure?"
+
+- title: "BOF: TableNextGen"
+  speaker: "Mihail Popa (ARM)"
+  slides_url: ""
+  video_url: ""
+  description: "TableGen is an essential component of the LLVM ecosystem, and the time has come to consider its evolution. The largest issues are the lack of formal specification, the mixing of logical concepts, and the unsuitability for automated generation. The aim of this BoF is to gather ideas toward an improved specification language that follows the generally accepted criteria for domain-specific languages: well-defined domain meta-models, formally defined semantics, simplicity, expressiveness, and lack of redundancy."
+
+- title: "BOF: Debug Info"
+  speaker: "Eric Christopher (Google)"
+  slides_url: ""
+  video_url: ""
+  description: ""
+
+- title: "BOF: Extending the Sanitizer tools and porting them to other platforms"
+  speaker: "Kostya Serebryany (Google), Alexey Samsonov (Google), Evgeniy Stepanov (Google)"
+  slides_url: ""
+  video_url: ""
+  description: ""
+
+- title: "BOF: High Level Loop Optimization / Polly"
+  speaker: "Tobias Grosser (INRIA), Sebastian Pop (QuIC), Zino Benaissa (QuIC)"
+  slides_url: ""
+  video_url: ""
+  description: "Discussions about loop optimizations, both generic ones as well as polyhedral loop optimizations as implemented in Polly. Topics include the pass order for high-level loop optimizations, scalar evolution, dependence analysis, high-level loop optimizations in core LLVM, the polyhedral infrastructure of Polly, as well as the isl polyhedral support library."
+
+- title: "BOF: Optimizations using LTO"
+  speaker: "Zino Benaissa (QuIC)"
+  slides_url: ""
+  video_url: ""
+  description: ""
+
+- title: "BOF: JIT & MCJIT"
+  speaker: "Andy Kaylor (Intel Corporation)"
+  slides_url: ""
+  video_url: ""
+  description: ""
