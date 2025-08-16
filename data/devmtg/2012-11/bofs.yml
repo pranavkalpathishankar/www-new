@@ -1,0 +1,36 @@
+bofs:
+- title: "BOF: Polly: A Loop Nest Optimizer for LLVM"
+  speaker: "Zino Benaissa (QuIC)"
+  slides_url: ""
+  video_url: ""
+  description: ""
+
+- title: "BOF: SelectionDAG & DAGCombiner - how can they be improved?"
+  speaker: "James Molloy (ARM)"
+  slides_url: ""
+  video_url: ""
+  description: ""
+
+- title: "BOF: Instruction scheduling for Superscalar and VLIW platforms. Temporal perspective"
+  speaker: "Sergei Larin (QuIC), Andy Trick (Apple)"
+  slides_url: "https://llvm.org/devmtg/2012-11/Larin-Trick-Scheduling.pdf"
+  video_url: ""
+  description: ""
+
+- title: "BOF: SPIR - A Standard Portable IR for OpenCL Kernel Language"
+  speaker: "Boaz Ouriel (Intel)"
+  slides_url: ""
+  video_url: ""
+  description: ""
+
+- title: "BOF: Memory Safety, Debugging Tools, and Automated Defenses"
+  speaker: "Santosh Nagarakatte (Rutgers University), John Criswell (University of Illinois)"
+  slides_url: ""
+  video_url: ""
+  description: ""
+
+- title: "BOF: Vectorization in LLVM"
+  speaker: "Nadav Rotem (Apple)"
+  slides_url: "https://llvm.org/devmtg/2012-11/Rotem-VectorizationBOF.pdf"
+  video_url: ""
+  description: ""
