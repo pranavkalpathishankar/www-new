@@ -125,6 +125,15 @@ events:
     url: "/devmtg/2018-04/"
     event_site: "https://llvm.org/devmtg/2018-04/"
 
+  - name: "LLVM Developers' Meeting"
+    id: "2011-11"
+    start_date: "2011-11-18"
+    end_date: "2011-11-18"
+    description: "2011 LLVM Developers' Meeting"
+    location: "San Jose Marriott, 301 South Market Street, San Jose, CA"
+    url: "/devmtg/2011-11/"
+    event_site: "https://llvm.org/devmtg/2011-11/"
+
   - name: "European User Group Meeting"
     id: "2011-09"
     start_date: "2011-09-16"
