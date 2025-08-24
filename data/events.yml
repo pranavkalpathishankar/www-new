@@ -125,6 +125,15 @@ events:
     url: "/devmtg/2018-04/"
     event_site: "https://llvm.org/devmtg/2018-04/"
 
+  - name: "European Conference"
+    id: "2012-04"
+    start_date: "2012-04-12"
+    end_date: "2012-04-12"
+    description: "2012 European Conference"
+    location: "Hotel Russell, 1-8 Russell Square, Bloomsbury, London, WC1B 5BE, UK"
+    url: "/devmtg/2012-04/"
+    event_site: "https://llvm.org/devmtg/2012-04/"
+
   - name: "LLVM Developers' Meeting"
     id: "2011-11"
     start_date: "2011-11-18"
