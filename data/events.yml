@@ -116,6 +116,15 @@ events:
     url: "/devmtg/2016-03/"
     event_site: "https://llvm.org/devmtg/2016-03/#schedule"
 
+  - name: "LLVM Developers' Meeting"
+    id: "2013-11"
+    start_date: "2013-11-06"
+    end_date: "2013-11-07"
+    description: "2013 LLVM Developers' Meeting"
+    location: "Le Meridien, San Francisco, CA"
+    url: "/devmtg/2013-11/"
+    event_site: "https://llvm.org/devmtg/2013-11/"
+
   - name: "European LLVM Conference"
     id: "2013-04"
     start_date: "2013-04-29"
