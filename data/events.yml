@@ -116,6 +116,15 @@ events:
     url: "/devmtg/2016-03/"
     event_site: "https://llvm.org/devmtg/2016-03/#schedule"
 
+  - name: "European LLVM Conference"
+    id: "2014-04"
+    start_date: "2014-04-07"
+    end_date: "2014-04-08"
+    description: "2014 European LLVM Conference"
+    location: "Edinburgh, Scotland"
+    url: "/devmtg/2014-04/"
+    event_site: "https://llvm.org/devmtg/2014-04/"
+
   - name: "LLVM Developers' Meeting"
     id: "2013-11"
     start_date: "2013-11-06"
