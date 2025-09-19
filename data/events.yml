@@ -8,6 +8,15 @@ events:
     url: "/devmtg/2025-06/"
     event_site: "https://llvm.org/devmtg/2025-06/"
 
+  - name: "EuroLLVM Developers' Meeting"
+    id: "2025-04"
+    start_date: "2025-04-14"
+    end_date: "2025-04-16"
+    description: "2025 EuroLLVM Developers' Meeting"
+    location: "InterContinental Berlin, Berlin, Germany"
+    url: "/devmtg/2025-04/"
+    event_site: "https://llvm.swoogo.com/2025eurollvm/home"
+
   - name: "LLVM Dev Mtg"
     id: "2024-10"
     start_date: "2024-10-22"
@@ -187,7 +196,7 @@ events:
     location: "Hotel Russell, 1-8 Russell Square, Bloomsbury, London, WC1B 5BE, UK"
     url: "/devmtg/2012-04/"
     event_site: "https://llvm.org/devmtg/2012-04/"
-
+    
   - name: "LLVM Developers' Meeting"
     id: "2012-11"
     start_date: "2012-11-07"
