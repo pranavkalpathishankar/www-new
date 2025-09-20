@@ -134,6 +134,15 @@ events:
     url: "/devmtg/2017-10/"
     event_site: "https://llvm.org/devmtg/2017-10/"
 
+  - name: "European LLVM Developers Meeting"
+    id: "2017-03"
+    start_date: "2017-03-27"
+    end_date: "2017-03-28"
+    description: "2017 European LLVM Developers Meeting"
+    location: "Saarland Informatics Campus, Saarbrücken, Germany"
+    url: "/devmtg/2017-03/"
+    event_site: "https://llvm.org/devmtg/2017-03/"
+
   - name: "2016 EuroLLVM Developers' Meeting"
     id: "2016-03"
     start_date: "2016-03-17"
