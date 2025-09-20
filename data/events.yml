@@ -125,6 +125,15 @@ events:
     url: "/devmtg/2018-04/"
     event_site: "https://llvm.org/devmtg/2018-04/"
 
+  - name: "US LLVM Developers' Meeting"
+    id: "2017-10"
+    start_date: "2017-10-18"
+    end_date: "2017-10-19"
+    description: "2017 US LLVM Developers' Meeting"
+    location: "San Jose Convention Center, San Jose, CA, USA"
+    url: "/devmtg/2017-10/"
+    event_site: "https://llvm.org/devmtg/2017-10/"
+
   - name: "2016 EuroLLVM Developers' Meeting"
     id: "2016-03"
     start_date: "2016-03-17"
