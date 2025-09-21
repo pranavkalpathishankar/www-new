@@ -161,6 +161,15 @@ events:
     url: "/devmtg/2016-03/"
     event_site: "https://llvm.org/devmtg/2016-03/#schedule"
 
+  - name: "LLVM Developers' Meeting"
+    id: "2015-10"
+    start_date: "2015-10-29"
+    end_date: "2015-10-30"
+    description: "2015 LLVM Developers' Meeting"
+    location: "Marriott, San Jose, CA"
+    url: "/devmtg/2015-10/"
+    event_site: "https://llvm.org/devmtg/2015-10/"
+
   - name: "European LLVM Conference"
     id: "2014-04"
     start_date: "2014-04-07"
