@@ -1,0 +1,24 @@
+tutorials:
+- title: "Fortran Front-End for LLVM"
+  speaker: "Carlo Bertolli, Hal Finkel, John Leidel and Kevin O'Brien"
+  slides_url: ""
+  video_url: ""
+  description: ""
+
+- title: "An LLDB Developer Tutorial"
+  speaker: "Siva Chandra Reddy"
+  slides_url: ""
+  video_url: ""
+  description: ""
+
+- title: "Debug Info Tutorial"
+  speaker: "Eric Christopher and David Blaikie"
+  slides_url: ""
+  video_url: ""
+  description: ""
+
+- title: "Your Code Generator Adventure: a journey through code generator generation and optimizations in LLVM-TURBO"
+  speaker: "Liam Fitzpatrick and Marco Roodzant"
+  slides_url: ""
+  video_url: ""
+  description: ""

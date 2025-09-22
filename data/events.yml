@@ -171,6 +171,15 @@ events:
     event_site: "https://llvm.org/devmtg/2015-10/"
 
   - name: "European LLVM Conference"
+    id: "2015-04"
+    start_date: "2015-04-13"
+    end_date: "2015-04-14"
+    description: "2015 European LLVM Conference"
+    location: "Goldsmiths College, London, UK"
+    url: "/devmtg/2015-04/"
+    event_site: "https://llvm.org/devmtg/2015-04/"
+
+  - name: "European LLVM Conference"
     id: "2014-04"
     start_date: "2014-04-07"
     end_date: "2014-04-08"
