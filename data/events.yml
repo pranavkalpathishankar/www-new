@@ -179,6 +179,15 @@ events:
     url: "/devmtg/2015-04/"
     event_site: "https://llvm.org/devmtg/2015-04/"
 
+  - name: "LLVM Developers' Meeting"
+    id: "2014-10"
+    start_date: "2014-10-28"
+    end_date: "2014-10-29"
+    description: "2014 LLVM Developers' Meeting"
+    location: "DoubleTree by Hilton, San Jose, CA"
+    url: "/devmtg/2014-10/"
+    event_site: "https://llvm.org/devmtg/2014-10/"
+
   - name: "European LLVM Conference"
     id: "2014-04"
     start_date: "2014-04-07"
